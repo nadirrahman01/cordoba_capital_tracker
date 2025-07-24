@@ -4,7 +4,7 @@ services:
     env: python
     plan: free
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn cordoba_tracker.wsgi:application"
+    startCommand: "gunicorn cordoba_capital_tracker.wsgi:application"
     envVars:
       - key: DJANGO_SETTINGS_MODULE
         value: cordoba_capital_tracker_uk.settings
