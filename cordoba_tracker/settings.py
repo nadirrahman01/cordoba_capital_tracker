@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-kcb!)al@ucdaiwbo=-y#3huj&tkt-%26=!dh#!&_-fhau2jhci
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cordoba-capital-tracker-2.onrender.com', 'cordobacapital.co.uk']
+ALLOWED_HOSTS = ['cordoba-capital-tracker-2.onrender.com', 'tracker.cordobacapital.co.uk']
 
 # Application definition
 
