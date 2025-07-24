@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: cordoba-capital
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn cordoba_capital_tracker_uk.wsgi:application"
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: cordoba_capital_tracker_uk.settings
