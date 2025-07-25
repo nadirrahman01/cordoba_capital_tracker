@@ -28,7 +28,6 @@ DEBUG = False
 ALLOWED_HOSTS = [
     'tracker.cordobacapital.co.uk',
     'cordoba-capital-tracker-2.onrender.com',
-    'cordobacapital.co.uk'
 ]
 
 # Application definition
